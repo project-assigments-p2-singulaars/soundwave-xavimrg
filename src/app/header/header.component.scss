@@ -5,11 +5,22 @@ header{
     color: white;
     justify-content: center;
     margin-top: 1rem;
+    width: 100vw;
+}
+
+#logoImage{&:hover {
+  color: #ADADAD; 
+}}
+
+button{
+  &:hover {
+    color: #ADADAD; 
+  }
 }
 
 #logoContainerHeader{
   gap: 1rem;
-  width: 35%;
+  width: 35vw;
   color: white;
   font-family: 'Poppins-regular';
   display: flex;
@@ -18,8 +29,8 @@ header{
 }
 
 #buttonContainerHeader{
-  width: 35%;
-  display: flex;
+  width: 35vw;
+  display:flex;
   flex-direction: row;
   justify-content: flex-end;
 }
@@ -32,10 +43,15 @@ header{
 }
 
 @media (max-width:430px){
+
+  header{
+    display: flex;
+    justify-content: space-around;
+  };
     #logoContainerHeader{
-        width: 40%;
+        width: 40vw;
     };
     #buttonContainerHeader{
-        width: 40%;}
+        width: 40vw;}
 
 }

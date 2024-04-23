@@ -25,12 +25,16 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
+    box-sizing: border-box;
     line-height: 1.5;
     background-color: #2B2834;
     color: white;
     font-family: 'Poppins-regular';
     font-size: 1.2rem;
+display: flex;
+flex-direction: column;
 
+overflow: hidden;
 }
 ol, ul {
     list-style: none;

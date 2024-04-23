@@ -9,6 +9,7 @@ footer{
     height: 4rem;
     justify-content: center;
     align-items: center;
+    width: 100vw;
 }
 
 button{
@@ -27,6 +28,9 @@ color: white;
 font-size: 1.2;
 text-decoration: none;
 -webkit-tap-highlight-color: transparent;
+&:hover {
+    color: #ADADAD; 
+  }
 }
 a {
     text-decoration: none;
@@ -42,13 +46,18 @@ a {
   }
 
 .legalContainerFooter{
-    width: 35%;
+    width: 35vw;
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
 }
 .socialContainerFooter{
-   width: 35%;
+   width: 35vw;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 1rem;
 }
 
 img{
@@ -64,7 +73,9 @@ img{
     width: 50%;
     display: flex;
     justify-content: space-around;
+    margin-left: 0.5rem;
 }
     .socialContainerFooter{
-        width: 50%;}
+        width: 50%;
+    margin-right: 0.5rem;}
 }

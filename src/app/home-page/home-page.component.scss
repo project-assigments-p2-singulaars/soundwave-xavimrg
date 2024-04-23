@@ -1,9 +1,11 @@
-main {
-    display: flex;
-    justify-content: center;
+:host {
     height: 100vh;
-
 }
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around,
+  }
 
 .contentHp {
     display: flex;
@@ -14,14 +16,16 @@ main {
 }
 
 #imageContainerHP {
+    display: flex;
     margin-top: 11rem;
     width: 60%;
     height: 100%;
 }
 
 #womanImg {
-    width: 90%;
-    height: 90%;
+width: 80%;    
+height: auto;
+
 }
 
 #textContainerHP {
@@ -48,6 +52,43 @@ button {
     padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    &:hover {color: #1F80D9}
+}
+
+.generalcircle {
+    position: absolute;
+}
+.circlepink{
+    left: 2%;
+    bottom: 8%;
+    z-index: -1;
+    width: 25rem;
+    height: 25rem;
+    background-color: #bc3a801a;
+    border-radius: 50%;
+    position: absolute;
+}
+.circleblue{
+    left: 28%;
+    bottom: 28%;
+    z-index: -1;
+    width: 25rem;
+    height: 25rem;
+    background-color: #3457b21a;
+    border-radius: 50%;
+    position: absolute;
+}
+.circlebig{
+    width: 45rem;
+    height: 50rem;
+    background-color: #3457b21a;
+    border-radius: 100%;
+    position: absolute;
+}
+.bottomright {
+    bottom: -28rem;
+    right: -16rem;
+    position: absolute;
 }
 
 @media (max-width:430px) {
@@ -63,7 +104,6 @@ button {
         align-items: flex-start;
         width: 65vw;
         justify-content: center;
+        height: 85vh;
     }
-
-
 }

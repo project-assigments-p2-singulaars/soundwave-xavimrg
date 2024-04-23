@@ -3,8 +3,7 @@ main{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 83vh;
-    
+    height: 83vh
 }
 
 .allJoinContainer{
@@ -39,10 +38,34 @@ h1 {
 }
 
 
+.circleBlue {
+   left: 10%;
+   bottom: 66%;
+    z-index: -1;
+    width: 25rem;
+    height: 25rem;
+    background-color: #3457b21a;
+    border-radius: 50%;
+    position: fixed;
+}
+
+.circlePink {
+    left: -21%;
+    bottom: -13%;
+    z-index: -1;
+    width: 40rem;
+    height: 40rem;
+    background-color: #bc3a801a;
+    border-radius: 50%;
+    position: fixed;
+}
+  
+
+
 @media (max-width: 430px) {
 
     main{
-        height: 83vh;
+        height: 84vh;
         display: flex;
         flex-direction: column;
         justify-content: center;

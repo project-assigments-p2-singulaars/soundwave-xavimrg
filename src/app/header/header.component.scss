@@ -3,9 +3,10 @@ header{
     display: flex;
     flex-direction: row;
     color: white;
-    justify-content: center;
-    margin-top: 1rem;
     width: 100vw;
+    position: fixed;
+    top: 0;
+    margin-top: 1rem;
 }
 
 #logoImage{&:hover {
@@ -18,6 +19,25 @@ button{
   }
 }
 
+a{
+  
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  &:visited {color: white;}
+  &:hover {
+    color: #ADADAD; }
+   
+
+}
+
+p{
+  text-decoration: none;
+  &:visited {color: white;}
+  margin-left: 1rem;
+
+}
+
 #logoContainerHeader{
   gap: 1rem;
   width: 35vw;
@@ -25,7 +45,8 @@ button{
   font-family: 'Poppins-regular';
   display: flex;
  flex-direction: row;
- align-items: center
+ min-width: 200px;
+ 
 }
 
 #buttonContainerHeader{

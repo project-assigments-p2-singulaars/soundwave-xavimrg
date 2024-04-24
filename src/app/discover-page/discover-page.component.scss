@@ -7,7 +7,7 @@ main{
 
 .allContentDisc{
   width: 70vw;
-  height: 83vh;
+  height: 100vh;
   display: flex;
 }
   .containerDiscText {
@@ -47,6 +47,9 @@ main{
     width: 80px;
     padding: 5px;
     justify-content: center;
+    &:hover {
+      background-color: #DD0072
+  }
   }
   
   .albumImage {
@@ -69,7 +72,7 @@ main{
     align-items: last baseline;
   }
   
-  @media (max-width: 430px) {
+  @media (max-width: 700px) {
     .allContentDisc{
       width: 80vw;
       height: 84vh;

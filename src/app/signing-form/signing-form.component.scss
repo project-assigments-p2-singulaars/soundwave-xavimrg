@@ -1,4 +1,4 @@
-form{
+form {
     height: 50vh;
     border-radius: 15px;
     display: flex;
@@ -6,17 +6,21 @@ form{
     justify-content: space-evenly;
     background-color: #1F1C23;
     padding: 1rem 2rem;
+
+    :focus {
+        background-color: #2696FF;
+    }
 }
 
 .inputForm {
-background-color: #1F1C23;
-border: #2f3253 solid 1px;
-border-radius: 5px;
-height: 2.5rem;
+    background-color: #1F1C23;
+    border: #2f3253 solid 1px;
+    border-radius: 5px;
+    height: 2.5rem;
 }
 
 
-label{
+label {
     font-family: 'Poppins-Bold';
 }
 
@@ -29,10 +33,14 @@ label{
     padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
- &:hover {color: #1F80D9}
+
+    &:hover {
+        background-color: #1F80D9
+    }
 }
 
 @media (max-width: 430px) {
-    form{
+    form {
         padding: 0.5rem 2rem;
-    }}
+    }
+}

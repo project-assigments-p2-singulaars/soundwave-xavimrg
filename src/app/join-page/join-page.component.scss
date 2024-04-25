@@ -6,6 +6,7 @@ main{
     height: 100vh
 }
 
+
 .allJoinContainer{
     width: 70vw;
     display: flex;
@@ -16,11 +17,13 @@ main{
     width: 50%;
     display: flex;
     flex-direction: row;
+    
 }
 
 
 .containerForm{
     width: 50%;
+    height: 50%;
 }
 
 h1 {
@@ -28,9 +31,10 @@ h1 {
     font-family: 'Poppins-Bold';
 }
 .white{
-    margin-right: 10px;
+    font-size: 4rem;
 }
-span{
+
+strong{
     color: #DD0072;
  
     
@@ -74,14 +78,18 @@ span{
 .allJoinContainer{
     width: 80vw;
     flex-direction: column;
+    height: 100vh;
 
     .containerForm{
         width: 100%;
+        height: 80%;
     }
 
     .joinContainerText{
         width: 100%;
+        height: 50%;
         flex-direction: column;
+        justify-content: flex-end
     
     }
 }}

@@ -1,5 +1,5 @@
 form {
-    height: 50vh;
+    height: 45vh;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -42,5 +42,5 @@ label {
 @media (max-width: 430px) {
     form {
         padding: 0.5rem 2rem;
-    }
-}
+       
+}}
